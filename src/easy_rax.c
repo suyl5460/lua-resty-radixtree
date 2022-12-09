@@ -21,7 +21,8 @@
 #include <stdlib.h>
 #include <string.h>
 #include <netinet/in.h>
-#include <arpa/inet.h>
+#include <windows.h>
+#pragma comment(lib, “wsock32.lib”)
 #include "easy_rax.h"
 
 
